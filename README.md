@@ -1,5 +1,7 @@
-# TESSERAQT OS
+# TESSERAQT-N OS
 or 4D-Qubes-Nexus-OS
+
+N ise NixOS
 
 A Reasonably Extra Secure Operating System
 
