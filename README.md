@@ -1,7 +1,7 @@
 # TESSERAQT-N OS
 or 4D-Qubes-Nexus-OS
 
-N is NixOS
+TESSERAQT-N: “N” stands for "Nix OS".
 
 A Reasonably Extra Secure Operating System
 
