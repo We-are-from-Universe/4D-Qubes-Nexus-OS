@@ -1,13 +1,13 @@
-# 4D-Qubes-Nexus-OS
-or "TetraQubes OS"
+# TESSERAQT OS
+or 4D-Qubes-Nexus-OS
 
 A Reasonably Extra Secure Operating System
 
 by NixOS and Qubes OS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-4-dimensional Qubes OS fork. QubesOS =3D . +1D = NixOS container structure. 4D = NixOSs in Qubes OS. 
+4-dimensional Qubes OS fork. 3D = QubesOS . +1D = NixOS container structure. 4D = NixOSs in Qubes OS. 
 
-  A Qubes OS fork symbolizing 4-dimensional cubes. The cubes symbolize virtual machines. NixOS can be installed on each cube. Thus, the container layer of NixOS is included in the cubes, changing the cubes from 3D to 4D. +1D = NixOS container structure. This creates 4D Qubes Nexus OS, which are four-dimensional cubes. Colloquially called TetraQubes OS, it is a project that aims to provide a secure and modular operating system structure by combining Qubes OS and NixOS. A reasonably extra secure operating system.  In this project, virtual machines in Qubes OS will run with NixOS by default; and dependencies and packages will be isolated within containers in this NixOS environment. Thanks to this structure, a 4-dimensional layered architecture will be created:
+  A Qubes OS fork symbolizing 4-dimensional cubes. The cubes symbolize virtual machines. NixOS can be installed on each cube. Thus, the container layer of NixOS is included in the cubes, changing the cubes from 3D to 4D. +1D = NixOS container structure. This creates 4D Qubes Nexus OS, which are four-dimensional cubes. Colloquially called TesseraQt OS, it is a project that aims to provide a secure and modular operating system structure by combining Qubes OS and NixOS. A reasonably extra secure operating system.  In this project, virtual machines in Qubes OS will run with NixOS by default; and dependencies and packages will be isolated within containers in this NixOS environment. Thanks to this structure, a 4-dimensional layered architecture will be created:
   1. Qubes OS - A split operating system for security.
   2. Virtual Machines (VMs) - Each isolated and running with NixOS.
   3. NixOS - Modular and reliable operating system running inside virtual machines.
