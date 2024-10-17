@@ -16,6 +16,15 @@ by NixOS and Qubes OS
   4. Containers - A structure within NixOS where dependencies and packages are run in isolation.
 
 This architecture aims to maximize system security while offering significant improvements in modularity and manageability.
+
+_____________________________________________________________________________________________________________________________________________________________
+  TesseraQt stands for 4D Qube. We will create a multi-layered 4D operating system by adding QubesOS, which is 3D, and GNU Guix OS, which is 1D.  
+Qubes OS aims to combine the highly secure Qubes technology (Xen Project based inter-VM interaction) with the Nix OS optimal data privacy container and NixPkgs Package Management System. By adding Nix containers, which are 1 Dimension, into the 3D Qube VMs, we will get a 4 Dimensional cube. This is how we will create Tesseract. 
+
+  The reason why we claim that Qubes OS contains 3 dimensions: The Qubes OS Operating System carries a main operating system, fedora OS, thanks to Xen technology. This is the first dimension (later on the 1st dimension layer, the first dimension, will be replaced by NixOS by default). It also hosts all the drivers, packages and software needed for data privacy and security in separate virtual machines called Qubes.  This creates a two-dimensional security layer. Inside these virtual machines, programs, software, packages, drivers are installed. Anonymity can also be achieved by building a new virtual machine inside the desired virtual machine, for example by installing whonix and running tor browser on the tor network inside whonix.  This adds another layer of dimension and creates a three-dimensional structure. 
+
+  According to our project, for data privacy and security, we will add isolated areas (containers) in Qubes (virtual machines) in the 3rd dimensional layer (and if desired in the first dimension, the main operating system layer) and enable applications, programs, software to be installed in containers. Containers within a Qube will be able to interact with each other through APIs. Also, the container and the virtual machine will interact with each other through APIs. Since Qubes can interact with each other thanks to the Qubes OS infrastructure, containers in different Qubes will also be able to interact with each other. We also chose Nix OS for security reasons: Nix OS will be installed inside the Qube VM in the 3rd dimension layer, isolated space for the 4th dimension layer - the container will be able to create containers easily thanks to Nix Pkgs. If desired, the host (1st dimension layer) OS can be installed as NixOS instead of Fedora. If desired, it can be continued with Fedora. But the new VMs will not run Fedora or Debian or any other Operating System. In Qubes, only Nix OS will run on VMs (with the exception of Whonix VM).   In this way, Extra Reasonably Secure level security will be provided.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Description: 
 
